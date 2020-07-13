@@ -17,3 +17,5 @@ if [ ! -d "$GIT_DIR" ]; then
 fi
 
 rm -rf $GIT_DIR
+
+echo "Successfully deleted repository named [$2.git]"

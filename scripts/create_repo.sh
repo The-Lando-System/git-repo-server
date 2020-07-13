@@ -17,4 +17,6 @@ if [ -d "$GIT_DIR" ]; then
 fi
 
 mkdir $GIT_DIR
-git init --bare $GIT_DIR
+git init --bare $GIT_DIR > /dev/null
+
+echo "Successfully created repository named [$2.git]"
