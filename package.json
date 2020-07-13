@@ -1,0 +1,16 @@
+{
+  "name": "git-repo-server",
+  "version": "1.0.0",
+  "description": "Manage git repositories",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matt Voget",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  }
+}
