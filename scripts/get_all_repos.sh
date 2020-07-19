@@ -5,4 +5,4 @@ if [ -z "$1" ]; then
   exit 1
 fi
 
-echo $(ls -md $1/*.git)
+echo $(find $1 -type d -name '*.git' | tr '\n' ',')
